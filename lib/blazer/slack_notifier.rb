@@ -18,7 +18,7 @@ module Blazer
               title: escape("#{check.query.name}"),
               title_link: query_url(check.query_id),
               text: escape(text),
-              color: state == "passing" ? "good" : "danger"
+              color: "good"
             }
           ]
         }
