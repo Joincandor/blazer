@@ -15,7 +15,7 @@ module Blazer
           channel: channel,
           attachments: [
             {
-              title: escape("Check #{state.titleize}: #{check.query.name}"),
+              title: escape("#{check.query.name}"),
               title_link: query_url(check.query_id),
               text: escape(text),
               color: state == "passing" ? "good" : "danger"
