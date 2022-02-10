@@ -8,7 +8,7 @@ module Blazer
           if error
             error
           elsif rows_count > 0 && check_type == "bad_data"
-            pluralize(rows_count, "row")
+            pluralize(rows_count, "results")
           end
 
         payload = {
